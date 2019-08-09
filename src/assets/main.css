@@ -118,8 +118,8 @@ a:hover {
 	font-weight: 500;
 }
 
-.header span:hover {
-	opacity: .7;
+.header span a {
+	color: black;
 }
 
 .header span:nth-child(1) i {
@@ -723,10 +723,6 @@ a:hover {
 		padding: 0 15px;
 		font-size: 15px;
 		transition: .3s;
-	}
-
-	.header span:hover {
-		opacity: 1;
 	}
 
 	.header span:nth-child(1) {

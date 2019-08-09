@@ -1,4 +1,4 @@
-# new-project
+# cv project
 
 ## Project setup
 ```

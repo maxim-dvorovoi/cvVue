@@ -7,11 +7,42 @@
 		</div>
 
 		<div id="index" :class="loading ? 'main' : 'main-active'">
-			<div id="nav">
-				<router-link to="/">Home</router-link> |
-				<router-link to="/about">About</router-link>
+			<img src="./assets/me.jpeg" style="display: none">
+
+			<div class="burger" id="burger" onclick="showHideHeader()">
+				<span></span>
+				<span></span>
+				<span></span>
 			</div>
-			<router-view/>
+
+			<div class="banner" id="banner">
+				<div class="name-block">
+					<h2>Hi, I'm</h2>
+					<h1>
+						Maxim
+						<br>
+						Dvorovoi
+					</h1>
+					<h2>Web developer</h2>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="header" id="header">
+					<span>
+						<i class="fas fa-address-card"></i>
+						<router-link to="/">Resume</router-link>
+					</span>
+					<span>
+						<i class="fas fa-folder-open"></i>
+						<router-link to="/about">About</router-link>
+					</span>
+				</div>
+
+				<div class="content" id="content">
+					<router-view/>
+				</div>
+			</div>
 		</div>
 	</div>
 </template>
@@ -28,12 +59,12 @@
 			};
 		},
 		methods: {
-			onLoadApp() {
-				setTimeout(() => this.loading = false, 1000);
+			setLoading() {
+				setTimeout(() => this.loading = false, 700);
 			},
 		},
 		mounted() {
-			window.addEventListener('load', () => this.onLoadApp());
+			window.onload = () => this.setLoading();
 		}
 	}
 </script>

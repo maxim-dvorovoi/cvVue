@@ -1,7 +1,8 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+	<div class="about" :onload="$parent.setLoading()">
+		<h3>This is an about page</h3>
+		<h2>About me</h2>
+	</div>
 </template>
 
 <script>
@@ -10,8 +11,11 @@
 		methods: {
 
 		},
+		created() {
+			this.$parent.setLoading();
+		},
 		mounted() {
-			this.$parent.onLoadApp();
+
 		}
 	}
 </script>
