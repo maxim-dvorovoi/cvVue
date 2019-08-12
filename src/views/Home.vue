@@ -1,6 +1,6 @@
 <template>
 	<div class="home">
-		<h3 id="resume">Profile</h3>
+		<h3>Profile</h3>
 		<h2>I'm a Fullstack Web Developer from Kyiv, UA. I aim to make a functional applications with clean code.</h2>
 		<h4>Worked with project teams to create user-friendly and appealing application interfaces and websites for users. Also worked with Vue.js framework and Highcharts as front-end developer. As a back-end developer, I have acted with PHP, MySQL, ElasticSearch, Nginx, Facebook API, Jira API and various Google API.</h4>
 		<hr>
@@ -97,7 +97,7 @@
 			</div>
 		</div>
 		<br>
-		<h3 id="experience">Experience</h3>
+		<h3>Experience</h3>
 		<div class="timeline experience">
 			<div class="trophy sticky">
 				<i class="fas fa-trophy"></i>
@@ -133,7 +133,7 @@
 			</div>
 		</div>
 		<br>
-		<h3 id="education">Education</h3>
+		<h3>Education</h3>
 		<div class="timeline experience">
 			<div class="award sticky">
 				<i class="fas fa-award"></i>
@@ -180,44 +180,6 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<br>
-		<h3 id="projects">Projects</h3>
-		<div class="projects">
-			<div>
-				<a href="https://hand-made-bymaxim.000webhostapp.com/" target="_blank" rel="noreferrer noorigin">
-					<img src="../assets/project1.png">
-				</a>
-				<h4>Hand - made</h4>
-				<p>This project is created on Symfony 3,4. It was a thesis work on courses PHP Academy.</p>
-			</div>
-			<div>
-				<a href="https://maxim-dvorovoi.github.io/dont-touch-the-blocks/" target="_blank" rel="noreferrer noorigin">
-					<img src="../assets/project2.png">
-				</a>
-				<h4>Dont touch the blocks</h4>
-				<p>This game is a simple variation Flappy Bird. I have used object-oriented programming and functional programming, to learn how it works.</p>
-			</div>
-		</div>
-		<br>
-		<h3>Social media</h3>
-		<div class="social">
-			<a href="https://www.instagram.com/d_mas9" target="_blank" rel="noreferrer noorigin" class="instagram-btn">
-				<i class="fab fa-instagram"></i>
-				<span>instagram</span>
-			</a>
-			<a href="https://www.facebook.com/maxim.dvorovoy" target="_blank" rel="noreferrer noorigin" class="facebook-btn">
-				<i class="fab fa-facebook-square"></i>
-				<span>facebook</span>
-			</a>
-			<a href="https://www.linkedin.com/in/maxim-dvorovoi" target="_blank" rel="noreferrer noorigin" class="linkedin-btn">
-				<i class="fab fa-linkedin"></i>
-				<span>linkedin</span>
-			</a>
-			<a href="https://github.com/maxim-dvorovoi" target="_blank" rel="noreferrer noorigin" class="github-btn">
-				<i class="fab fa-github-square"></i>
-				<span>github</span>
-			</a>
 		</div>
 		<br>
 	</div>

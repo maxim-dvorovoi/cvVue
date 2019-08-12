@@ -35,7 +35,11 @@
 					</span>
 					<span>
 						<i class="fas fa-folder-open"></i>
-						<router-link to="/about">About</router-link>
+						<router-link to="/portfolio">Portfolio</router-link>
+					</span>
+					<span>
+						<i class="fas fa-folder-open"></i>
+						<router-link to="/contact">Contact</router-link>
 					</span>
 				</div>
 
